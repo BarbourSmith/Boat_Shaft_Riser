@@ -520,8 +520,8 @@
     },
     {
       "atomType": "GitHubMolecule",
-      "x": 0.2281746031746032,
-      "y": 0.8050139275766017,
+      "x": 0.22619047619047616,
+      "y": 0.796657381615599,
       "uniqueID": "id-91694",
       "name": "Rounded_Rectangle",
       "ioValues": [
@@ -531,11 +531,13 @@
         },
         {
           "name": "Y_Length",
-          "ioValue": 30
+          "ioValue": 29.5,
+          "currentEquation": "29.5"
         },
         {
           "name": "Radius",
-          "ioValue": 14.9
+          "ioValue": 14.65,
+          "currentEquation": "14.65"
         }
       ],
       "topLevel": false,
@@ -585,11 +587,11 @@
             },
             {
               "name": "height",
-              "ioValue": 30
+              "ioValue": 29.5
             },
             {
               "name": "cornerRadius",
-              "ioValue": 14.9
+              "ioValue": 14.65
             }
           ],
           "interpreterVersion": 1,
@@ -881,6 +883,36 @@
         }
       ],
       "unionType": "Fusion"
+    },
+    {
+      "atomType": "Export",
+      "x": 0.9027777777777777,
+      "y": 0.6518105849582172,
+      "uniqueID": "id-91817",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "File Type",
+          "ioValue": "STEP",
+          "currentEquation": "STEP"
+        },
+        {
+          "name": "Resolution (dpi)",
+          "ioValue": 96
+        },
+        {
+          "name": "Part Name",
+          "ioValue": "Boat_Shaft_Riser",
+          "currentEquation": "Boat_Shaft_Riser"
+        }
+      ],
+      "type": null,
+      "resolution": 96,
+      "importIndex": 0,
+      "partName": "Boat_Shaft_Riser"
     }
   ],
   "allConnectors": [
@@ -928,6 +960,11 @@
       "ap2Name": "number or geometry",
       "ap1ID": "id-91706",
       "ap2ID": "id-91584"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-91706",
+      "ap2ID": "id-91817"
     },
     {
       "ap2Name": "Shape 2",
