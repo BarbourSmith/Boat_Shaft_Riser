@@ -196,8 +196,7 @@
         },
         {
           "name": "zDist",
-          "ioValue": -30,
-          "currentEquation": "-30"
+          "ioValue": -30
         }
       ]
     },
@@ -232,6 +231,99 @@
           "ioValue": "__GEOMETRY_INPUT__"
         }
       ]
+    },
+    {
+      "atomType": "Fusion",
+      "x": 0.292989417989418,
+      "y": 0.37325905292479106,
+      "uniqueID": "id-91811",
+      "ioValues": [
+        {
+          "name": "Shape 1",
+          "ioValue": {
+            "geometry": "loft-move-circle-17-0-0-0-circle-17.75-{\"origin\":[0,0,-8],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}--",
+            "dimension": "3D",
+            "tags": [],
+            "plane": {
+              "origin": [
+                0,
+                0,
+                0
+              ],
+              "xDir": [
+                1,
+                0,
+                0
+              ],
+              "normal": [
+                0,
+                0,
+                1
+              ]
+            },
+            "color": "#aad7f2",
+            "bom": []
+          }
+        },
+        {
+          "name": "Shape 2",
+          "ioValue": {
+            "geometry": "22b4afa8-30-10-20-20-0",
+            "dimension": "3D",
+            "tags": [],
+            "color": "#aad7f2",
+            "plane": {
+              "origin": [
+                0,
+                0,
+                0
+              ],
+              "xDir": [
+                1,
+                0,
+                0
+              ],
+              "normal": [
+                0,
+                0,
+                1
+              ]
+            },
+            "bom": []
+          }
+        }
+      ],
+      "unionType": "Fusion"
+    },
+    {
+      "atomType": "Export",
+      "x": 0.9027777777777777,
+      "y": 0.6518105849582172,
+      "uniqueID": "id-91817",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "File Type",
+          "ioValue": "STEP",
+          "currentEquation": "STEP"
+        },
+        {
+          "name": "Resolution (dpi)",
+          "ioValue": 96
+        },
+        {
+          "name": "Part Name",
+          "ioValue": "Boat_Shaft_Riser",
+          "currentEquation": "Boat_Shaft_Riser"
+        }
+      ],
+      "type": null,
+      "resolution": 96,
+      "importIndex": 0,
+      "partName": "Boat_Shaft_Riser"
     },
     {
       "atomType": "GitHubMolecule",
@@ -531,13 +623,11 @@
         },
         {
           "name": "Y_Length",
-          "ioValue": 29.5,
-          "currentEquation": "29.5"
+          "ioValue": 29.5
         },
         {
           "name": "Radius",
-          "ioValue": 14.65,
-          "currentEquation": "14.65"
+          "ioValue": 14.65
         }
       ],
       "topLevel": false,
@@ -820,99 +910,6 @@
         }
       ],
       "fileTypeVersion": 1
-    },
-    {
-      "atomType": "Fusion",
-      "x": 0.292989417989418,
-      "y": 0.37325905292479106,
-      "uniqueID": "id-91811",
-      "ioValues": [
-        {
-          "name": "Shape 1",
-          "ioValue": {
-            "geometry": "loft-move-circle-17-0-0-0-circle-17.75-{\"origin\":[0,0,-8],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}--",
-            "dimension": "3D",
-            "tags": [],
-            "plane": {
-              "origin": [
-                0,
-                0,
-                0
-              ],
-              "xDir": [
-                1,
-                0,
-                0
-              ],
-              "normal": [
-                0,
-                0,
-                1
-              ]
-            },
-            "color": "#aad7f2",
-            "bom": []
-          }
-        },
-        {
-          "name": "Shape 2",
-          "ioValue": {
-            "geometry": "22b4afa8-30-10-20-20-0",
-            "dimension": "3D",
-            "tags": [],
-            "color": "#aad7f2",
-            "plane": {
-              "origin": [
-                0,
-                0,
-                0
-              ],
-              "xDir": [
-                1,
-                0,
-                0
-              ],
-              "normal": [
-                0,
-                0,
-                1
-              ]
-            },
-            "bom": []
-          }
-        }
-      ],
-      "unionType": "Fusion"
-    },
-    {
-      "atomType": "Export",
-      "x": 0.9027777777777777,
-      "y": 0.6518105849582172,
-      "uniqueID": "id-91817",
-      "ioValues": [
-        {
-          "name": "geometry",
-          "ioValue": "__GEOMETRY_INPUT__"
-        },
-        {
-          "name": "File Type",
-          "ioValue": "STEP",
-          "currentEquation": "STEP"
-        },
-        {
-          "name": "Resolution (dpi)",
-          "ioValue": 96
-        },
-        {
-          "name": "Part Name",
-          "ioValue": "Boat_Shaft_Riser",
-          "currentEquation": "Boat_Shaft_Riser"
-        }
-      ],
-      "type": null,
-      "resolution": 96,
-      "importIndex": 0,
-      "partName": "Boat_Shaft_Riser"
     }
   ],
   "allConnectors": [
@@ -967,6 +964,16 @@
       "ap2ID": "id-91817"
     },
     {
+      "ap2Name": "Shape",
+      "ap1ID": "id-91811",
+      "ap2ID": "id-91644"
+    },
+    {
+      "ap2Name": "Shape 2",
+      "ap1ID": "id-91811",
+      "ap2ID": "id-91675"
+    },
+    {
       "ap2Name": "Shape 2",
       "ap1ID": "id-91586",
       "ap2ID": "id-91811"
@@ -985,16 +992,6 @@
       "ap2Name": "Shape 1",
       "ap1ID": "id-91788",
       "ap2ID": "id-91811"
-    },
-    {
-      "ap2Name": "Shape",
-      "ap1ID": "id-91811",
-      "ap2ID": "id-91644"
-    },
-    {
-      "ap2Name": "Shape 2",
-      "ap1ID": "id-91811",
-      "ap2ID": "id-91675"
     }
   ],
   "unitsKey": "MM",
