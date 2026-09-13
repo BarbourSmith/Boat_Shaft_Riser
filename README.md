@@ -2,7 +2,7 @@
 
 # Boat_Shaft_Riser
 
-![](/project.svg)
+![](/project.png)
 
 
 
