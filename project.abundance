@@ -211,8 +211,8 @@
         },
         {
           "name": "zDist",
-          "ioValue": 139.7,
-          "currentEquation": "5.5*25.4"
+          "ioValue": 129.7,
+          "currentEquation": "(5.5*25.4)-10"
         }
       ]
     },
@@ -240,8 +240,8 @@
         },
         {
           "name": "height",
-          "ioValue": 139.7,
-          "currentEquation": "5.5*25.4"
+          "ioValue": 129.7,
+          "currentEquation": "129.7"
         }
       ]
     },
@@ -278,7 +278,7 @@
         {
           "name": "Shape 1",
           "ioValue": {
-            "geometry": "move-extrude-circle-60-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-139.7-0-0-20",
+            "geometry": "move-extrude-circle-60-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-129.7-0-0-20",
             "dimension": "3D",
             "tags": [],
             "plane": {
@@ -814,8 +814,7 @@
         },
         {
           "name": "Offset",
-          "ioValue": 0.5,
-          "currentEquation": "0.5"
+          "ioValue": 0.5
         }
       ],
       "topLevel": false,
@@ -2657,8 +2656,7 @@
         },
         {
           "name": "Offset",
-          "ioValue": 0.5,
-          "currentEquation": "0.5"
+          "ioValue": 0.5
         }
       ],
       "topLevel": false,
@@ -2771,8 +2769,7 @@
         },
         {
           "name": "height",
-          "ioValue": 20,
-          "currentEquation": "20"
+          "ioValue": 20
         }
       ]
     },
@@ -2897,6 +2894,16 @@
       "ap2ID": "id-91656"
     },
     {
+      "ap2Name": "Shape 1",
+      "ap1ID": "id-92236",
+      "ap2ID": "id-91811"
+    },
+    {
+      "ap2Name": "Shape 2",
+      "ap1ID": "id-92241",
+      "ap2ID": "id-91675"
+    },
+    {
       "ap2Name": "Input",
       "ap1ID": "id-91586",
       "ap2ID": "id-92019"
@@ -2927,24 +2934,14 @@
       "ap2ID": "id-92236"
     },
     {
-      "ap2Name": "2D_Shape",
-      "ap1ID": "id-92019",
-      "ap2ID": "id-91933"
-    },
-    {
       "ap2Name": "Shape 3",
       "ap1ID": "id-92224",
       "ap2ID": "id-91811"
     },
     {
-      "ap2Name": "Shape 1",
-      "ap1ID": "id-92236",
-      "ap2ID": "id-91811"
-    },
-    {
-      "ap2Name": "Shape 2",
-      "ap1ID": "id-92241",
-      "ap2ID": "id-91675"
+      "ap2Name": "2D_Shape",
+      "ap1ID": "id-92019",
+      "ap2ID": "id-91933"
     }
   ],
   "unitsKey": "MM",
